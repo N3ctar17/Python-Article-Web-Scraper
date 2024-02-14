@@ -10,8 +10,7 @@ This is a simple web scraper script written in Python using the BeautifulSoup li
 
 ## Usage
 
-1. Create an environment with ```python
-"conda create -n your_environment_name --file requirements.yml"
+1. Create an environment with "conda create -n your_environment_name --file requirements.yml"
 2. Activate the environment with "conda activate your_environment_name"
 3. Create a file named `urls.txt` in the same directory as the script.
 4. Add the URLs of the web pages you want to scrape to `urls.txt`, with each URL on a new line.  If the URL does not contian "https://" it will add it for you.
