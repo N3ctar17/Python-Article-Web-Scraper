@@ -2,6 +2,9 @@
 
 from module_2.scraper import scrape_and_save
 
-if __name__ == "__main__":
+def main():
     url_file = "urls.txt"  # Path to the file containing URLs
     scrape_and_save(url_file)
+
+if __name__ == "__main__":
+    main()
