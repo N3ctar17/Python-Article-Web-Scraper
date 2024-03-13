@@ -3,7 +3,7 @@
 
 import os
 from urllib.parse import urlparse
-from module_1.some_name1 import get_text_from_url
+from module_1.format import get_text_from_url
 
 def extract_domain(url):
     """

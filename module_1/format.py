@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 
 def get_text_from_url(url):
     """
-    Extract text content from a given URL.
+    Extract text content from a given URL.  Formats the text content to remove excess data other than the article text.
 
     Args:
     - url (str): The URL to extract text from.
